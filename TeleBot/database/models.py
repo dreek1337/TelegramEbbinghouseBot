@@ -13,4 +13,4 @@ class RepeatInformation(DeclarativeBase):
     information = Column('information', String)
 
     def __repr__(self):
-        return "".format(self.header)
+        return "{0}".format(self.header)
